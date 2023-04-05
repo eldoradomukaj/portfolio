@@ -18,7 +18,7 @@ function Main() {
                 <span className="text-[#0FFF95]">Eldorado</span>
             </h1>
 
-            <h3 className="mt-4 lowercase text-[#3a4d97] font-terminal font-light tracking-wide">Systems Engineer | Developer | Homelab Enthusiast</h3>
+            <h3 className="mt-4 lowercase text-[#3a4d97] font-terminal font-light tracking-tight md:tracking-wide text-center md:text-start px-4">Systems Engineer | Developer | Homelab Enthusiast</h3>
 
             <p className="max-w-lg mt-8 px-8 sm:px-4 text-justify">Welcome to my portfolio website! I am a Systems Engineer, Developer, and Homelab Enthusiast with a passion for designing and implementing complex systems, building software applications, and tinkering with technology. </p>
         
