@@ -11,7 +11,7 @@ function Main() {
         <div className="flex flex-col items-center content-center align-middle">
             <div className="mb-0">
                 {/* <img className="bg-red-500 rounded-full" src="https://robohash.org/rgdbdh5hy5h5h" /> */}
-                <Lottie loop play isClickToPauseDisabled={true} animationData={animationData} isClickToPauseDisabled={true} />
+                <Lottie loop play isClickToPauseDisabled={true} animationData={animationData} />
             </div>
 
             <h1>Hi, I&#8217;m { }
