@@ -2,24 +2,16 @@ import React from "react"
 import { FiArrowDown } from "react-icons/fi";
 import { VscGithubInverted } from "react-icons/vsc";
 import { Button } from "./Button";
-import Lottie from "react-lottie";
+import Lottie from "react-lottie-player";
 import animationData from "../../public/assets/computer.json";
 
 function Main() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
   return (
     <main className="w-full h-screen flex justify-center items-center">
         <div className="flex flex-col items-center content-center align-middle">
             <div className="mb-0">
                 {/* <img className="bg-red-500 rounded-full" src="https://robohash.org/rgdbdh5hy5h5h" /> */}
-                <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+                <Lottie loop play isClickToPauseDisabled={true} animationData={animationData} isClickToPauseDisabled={true} />
             </div>
 
             <h1>Hi, I&#8217;m { }
