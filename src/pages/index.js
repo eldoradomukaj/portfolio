@@ -1,5 +1,6 @@
 import Main from '@/components/Main'
 import Navbar from '@/components/Navbar'
+import Terminal from '@/components/Terminal'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
+      <Terminal />
     </>
   )
 }

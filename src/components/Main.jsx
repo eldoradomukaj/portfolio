@@ -9,23 +9,23 @@ function Main() {
   return (
     <main className="w-full h-screen flex justify-center items-center">
         <div className="flex flex-col items-center content-center align-middle">
-            <div className="mb-0">
+            <div>
                 {/* <img className="bg-red-500 rounded-full" src="https://robohash.org/rgdbdh5hy5h5h" /> */}
-                <Lottie loop play isClickToPauseDisabled={true} animationData={animationData} />
+                <Lottie loop play animationData={animationData} />
             </div>
 
-            <h1>Hi, I&#8217;m { }
+            <h1 className="-mt-11 sm:mt-0">Hi, I&#8217;m { }
                 <span className="text-[#0FFF95]">Eldorado</span>
             </h1>
 
-            <h3 className="mt-4 lowercase text-[#4961c0] font-terminal font-light tracking-tight md:tracking-normal text-center md:text-start px-20 sm:px-4">Systems Engineer | Developer | Homelab Enthusiast</h3>
+            <h3 className="mt-4 lowercase text-[#4961c0] font-terminal font-light tracking-tight md:tracking-normal text-center md:text-start px-6 sm:px-4">Systems Engineer | Developer | Homelab Enthusiast</h3>
 
-            <p className="max-w-lg mt-8 px-8 sm:px-4 text-justify">Welcome to my portfolio website! I am a Systems Engineer, Developer, and Homelab Enthusiast with a passion for designing and implementing complex systems, building software applications, and tinkering with technology. </p>
+            <p className="max-w-lg text-sm md:text-base mt-8 px-8 sm:px-4 text-justify">Welcome to my portfolio website! I am a Systems Engineer, Developer, and Homelab Enthusiast with a passion for designing and implementing complex systems, building software applications, and tinkering with technology. </p>
         
-            <a href="https://github.com/eldoradomukaj" target="_blank"><Button text="Github" icon={<VscGithubInverted size={34} />} /></a> 
+            <a href="https://github.com/eldoradomukaj" className="mb-28 md:mb-0" target="_blank"><Button text="Github" icon={<VscGithubInverted size={34} />} /></a> 
         </div>
 
-        {/* <span className="text-3xl p-2 absolute bottom-0 mb-8 animate-bounce cursor-pointer"><FiArrowDown /></span> */}
+        <a href="#terminal" className="text-3xl py-1 md:p-2 absolute bottom-0 mb-0 md:mb-8 animate-bounce cursor-pointer"><FiArrowDown /></a>
     </main>
   )
 }

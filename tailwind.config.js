@@ -17,6 +17,16 @@ module.exports = {
         'poppins': ['var(--font-poppins)', ...fontFamily.serif],
         'terminal': ['var(--font-terminal)', ...fontFamily.mono]
       },
+      animation: {
+        blink: 'blink 1400ms ease infinite'
+      },
+      keyframes: {
+        blink: {
+          '0%, 49%': { background: '#708284'},
+          '60%, 99%': { background: 'transparent'},
+          '100%': { background: '#708284'},
+        }
+      }
     },
   },
   plugins: [],

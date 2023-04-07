@@ -35,4 +35,23 @@ html, body {
   button {
     @apply shadow-md shadow-[#06080E] rounded-md
   }
+
+  .terminal {
+    @apply w-[90%] md:w-[66.66666%] h-3/4 bg-[#1d1f21] rounded-lg
+  }
+
+  .toolbar {
+    @apply flex items-center p-2 bg-[#f2eded] rounded-t-lg pb-3
+  }
+  .toolbar__circle {
+    @apply mt-1 ml-1 mr-1.5 h-3.5 w-3.5 rounded-full
+  }
+
+  .console {
+    @apply flex items-center mx-auto font-terminal text-[#b0e474] p-2
+  }
+
+  .terminal__cursor {
+    @apply inline-flex align-middle mb-1 h-4 w-2 bg-[#b0e474]
+  }
 }
