@@ -13,7 +13,7 @@ function Skills() {
   return (
     <div className='mt-2 font-terminal grid grid-cols-2 sm:grid-cols-3 p-4 text-sm'>
         {
-            skills.map((skill) => <div>{skill}</div>)
+            skills.map((skill) => <div key={skill}>{skill}</div>)
         }
     </div>
   )
